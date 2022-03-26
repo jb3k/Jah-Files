@@ -5,10 +5,123 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cat Adoption</title>
+    <link rel="stylesheet" href="jahHome.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
 </head>
 
 <body>
+    <section class="header">
+        <nav>
+            <a href="jahHome.html"><img src="../images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Our Team</a></li>
+                    <li><a href="jahForm.html" target="_blank">Adoption Form</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+
+        <div class="text-box">
+            <h1>World's most purrfect Cats</h1>
+            <p>
+                These poor little kitties have no home! Please fill out a form and adopt your kitten now!
+            </p>
+            <a href="https://unsplash.com/backgrounds/cute/cat" class="hero-btn" target="_blank">Visit us to learn
+                more!</a>
+
+        </div>
+    </section>
+
+    <!------------------ Pictures of the Kitties -------------->
+
+    <section class="course">
+        <h1>Kitties we Offer</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio ab fugit doloremque repellendus accusantium
+            architecto necessitatibus quasi cupiditate impedit. Repellat soluta omnis velit excepturi numquam rerum,
+            assumenda optio ipsam et.</p>
+        <br>
+
+        <div class="row">
+            <div class="course-col">
+                <img src="../images/ash.jpeg" height="150px" width="150px">
+                <br>
+                <br>
+                <h3>Ashton Kam</h3>
+                <p>Ashton is 1 year and 6 months old. He is an adorable ragdoll that will fall into your arms the moment
+                    you pick him up.</p>
+            </div>
+            <div class="course-col">
+                <h3>Carbs Cao</h3>
+                <p>Carbs is currently 3 years old. He loves cuddling up next to his humans but can be a little
+                    aggressive towards other cats/p>
+            </div>
+            <div class="course-col">
+                <h3>Jimmy Fan</h3>
+                <p>Jimmy is 2 years old. He is an adorable british shorthair that loves to sit on the couch.</p>
+            </div>
+            <div class="course-col">
+                <img src="../images/miya.jpeg" height="150px" width="150px">
+                <br>
+                <br>
+                <h3>Miya Zhang</h3>
+                <p>Miya is 1 year and 8 months old. She is an adorable british longhair that loves to play with her
+                    springs.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!------------------ Breeding Locations -------------->
+
+
+    <section class="'breeding">
+        <h1>Our Breeding Shelters</h1>
+        <p>These are the cities of our breeding locations</p>
+
+        <div class="row">
+            <div class="breeding-col">
+                <img src="../images/brea.jpg">
+                <div class="layer">
+                    <h3>Brea</h3>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+    <!------------------ JavaScript for Toggle -------------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
 
 </body>
 

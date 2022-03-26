@@ -1,0 +1,49 @@
+fieldset {
+    border: 0;
+}
+
+body {
+
+    background-image: url(../../gym.jpg);
+    background-position: center;
+    background-size: 3000px;
+    background-repeat: no-repeat;
+
+}
+
+.regform{
+    width: 800px;
+    background-color: rgb(0, 0, 0, 0.6);
+    margin: auto;
+    color: aliceblue;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15;
+
+}
+
+.main{
+    width: 700px;
+    background-color: rgb(0, 0, 0, 0.5);
+    margin: auto;
+    color: white;
+    padding-left: 100px;
+    font-size: 24px;
+}
+
+form {
+padding: 10px;
+
+}
+
+#goals {
+    columns: 3;
+    width: auto;
+    
+
+}
+
+.experience {
+    align-items: center;
+
+}
