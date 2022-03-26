@@ -198,14 +198,14 @@ box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2) ;
     .row {
         flex-direction: column;
 }
-
-/* locations sections */
+}
+/* --------locations sections---------- */
 
 .breeding{
     width: 80%;
     margin: auto;
     text-align: center;
-    padding: 100px;
+    padding: 50px;
 
 }
 
@@ -215,12 +215,10 @@ box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2) ;
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
-
 }
 
 .breeding-col img {
     width: 100%;
-
 }
 
 .layer {
@@ -231,7 +229,6 @@ box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2) ;
     top: 0;
     left: 0;
     transition: 0.5s;
-
 }
 
 .layer:hover {
